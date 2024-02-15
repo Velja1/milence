@@ -1,0 +1,88 @@
+#centerDiv{
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#labelSelect{
+    float: left;
+}
+
+#imgSelect{
+    width: 30px;
+    float: left;
+    margin-left: 10px;
+}
+
+#imgVelika{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#textDanilo{
+    display: none;
+    position: relative;
+    top: -250px;
+    color: aqua;
+    font-size: 50px;
+}
+
+#textGordan{
+    display: none;
+    position: relative;
+    top: -250px;
+    color: chocolate;
+    font-size: 50px;
+}
+
+#gifAfter{
+    display: none;
+    position: relative;
+    top: -250px;
+    max-width: 100px;
+    max-height: 200px;
+}
+
+#textMilence{
+    margin-top: 30px;
+}
+
+#textDa{
+    position: relative;
+    top: 50px;
+}
+
+#textNe{
+    position: relative;
+    top: 50px;
+    margin-left: 20px;
+}
+
+#blok{
+    display: none;
+}
+
+@media only screen and (max-width: 1600px) {
+    #centerDiv {
+      width: 70%;
+    }
+    #imgVelika{
+        width: 70%;
+        height: 70%;
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    #centerDiv {
+      width: 90%;
+    }
+    #imgVelika{
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+}
